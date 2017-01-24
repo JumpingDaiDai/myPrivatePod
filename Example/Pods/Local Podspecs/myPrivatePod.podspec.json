@@ -18,16 +18,5 @@
   "platforms": {
     "ios": "9.0"
   },
-  "source_files": "myPrivatePod/Classes/**/*.{h,m}",
-  "resource_bundles": {
-    "Xib_resource": [
-      "myPrivatePod/Assets/CollectionView/CTItemImageCell.xib",
-      "myPrivatePod/Assets/CollectionView/CTItemNormalCell.xib",
-      "myPrivatePod/Assets/CollectionView/CTItemTextCell.xib",
-      "myPrivatePod/Assets/StackView/CTItemImage.xib",
-      "myPrivatePod/Assets/StackView/CTItemText.xib",
-      "myPrivatePod/Assets/StackView/CTItemNormal.xib",
-      "myPrivatePod/Assets/StackView/CTItemListComponent.xib"
-    ]
-  }
+  "source_files": "myPrivatePod/Classes/**/*.{h,m}"
 }
