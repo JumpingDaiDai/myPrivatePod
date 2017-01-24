@@ -33,7 +33,7 @@ TODO: Add long description of the pod here.
   s.source_files = 'myPrivatePod/Classes/**/*.{h,m}'
   
   s.resource_bundles = {
-	'Xib_resource' => ['myPrivatePod/Classes/**/*.xib']
+	'Xib_resource' => ['myPrivatePod/Classes/CollectionView/*.xib','myPrivatePod/Classes/StackView/*.xib']
   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
