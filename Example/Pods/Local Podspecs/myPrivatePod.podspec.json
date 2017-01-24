@@ -20,7 +20,7 @@
   },
   "source_files": "myPrivatePod/Classes/**/*.{h,m}",
   "resource_bundles": {
-    "Xib_resource": [
+    "myPrivatePod": [
       "myPrivatePod/Assets/CollectionView/CTItemImageCell.xib"
     ]
   }
