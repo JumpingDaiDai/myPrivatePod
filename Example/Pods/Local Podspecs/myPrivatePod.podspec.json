@@ -20,8 +20,14 @@
   },
   "source_files": "myPrivatePod/Classes/**/*.{h,m}",
   "resource_bundles": {
-    "myPrivatePod": [
-      "myPrivatePod/Assets/CollectionView/CTItemImageCell.xib"
+    "Xib_resource": [
+      "myPrivatePod/Assets/CTItemImageCell.xib",
+      "myPrivatePod/Assets/CTItemNormalCell.xib",
+      "myPrivatePod/Assets/CTItemTextCell.xib",
+      "myPrivatePod/Assets/CTItemImage.xib",
+      "myPrivatePod/Assets/CTItemText.xib",
+      "myPrivatePod/Assets/CTItemNormal.xib",
+      "myPrivatePod/Assets/CTItemListComponent.xib"
     ]
   }
 }
