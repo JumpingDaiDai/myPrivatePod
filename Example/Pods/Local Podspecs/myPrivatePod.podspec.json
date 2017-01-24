@@ -18,5 +18,10 @@
   "platforms": {
     "ios": "9.0"
   },
-  "source_files": "myPrivatePod/Classes/**/*.{h,m}"
+  "source_files": "myPrivatePod/Classes/**/*.{h,m}",
+  "resource_bundles": {
+    "Xib_resource": [
+      "myPrivatePod/Assets/CollectionView/CTItemImageCell.xib"
+    ]
+  }
 }
