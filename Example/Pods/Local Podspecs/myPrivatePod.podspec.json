@@ -1,0 +1,28 @@
+{
+  "name": "myPrivatePod",
+  "version": "0.1.0",
+  "summary": "A short description of myPrivatePod.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/JumpingDaiDai/myPrivatePod",
+  "license": {
+    "type": "proprietary",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Jason": "jason_chung@17life.com"
+  },
+  "source": {
+    "git": "https://github.com/JumpingDaiDai/myPrivatePod.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "myPrivatePod/Classes/**/*",
+  "resource_bundles": {
+    "myPrivatePod": [
+      "myPrivatePod/Classes/**/*.xib"
+    ]
+  },
+  "public_header_files": "Pod/Classes/**/*.h"
+}
