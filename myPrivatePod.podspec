@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'http://www.17life.com/'
+  s.homepage         = 'https://github.com/JumpingDaiDai/myPrivatePod.git'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'proprietary', :file => 'LICENSE' }
   s.author           = { 'Jason' => 'jason_chung@17life.com' }
