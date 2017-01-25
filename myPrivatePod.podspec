@@ -32,15 +32,23 @@ TODO: Add long description of the pod here.
 
   s.source_files = 'myPrivatePod/Classes/**/*.{h,m}'
   
-  s.resource_bundles = {
-  	'Xib_resource' => ['myPrivatePod/Assets/CTItemImageCell.xib',
-	                   'myPrivatePod/Assets/CTItemNormalCell.xib',
-					   'myPrivatePod/Assets/CTItemTextCell.xib',
-					   'myPrivatePod/Assets/CTItemImage.xib',
-					   'myPrivatePod/Assets/CTItemText.xib',
-					   'myPrivatePod/Assets/CTItemNormal.xib',
-					   'myPrivatePod/Assets/CTItemListComponent.xib']
- }
+  s.resources = ['myPrivatePod/Assets/CTItemImageCell.xib',
+                 'myPrivatePod/Assets/CTItemNormalCell.xib',
+				 'myPrivatePod/Assets/CTItemTextCell.xib',
+				 'myPrivatePod/Assets/CTItemImage.xib',
+				 'myPrivatePod/Assets/CTItemText.xib',
+				 'myPrivatePod/Assets/CTItemNormal.xib',
+				 'myPrivatePod/Assets/CTItemListComponent.xib']
+   
+  # s.resource_bundles = {
+  # 	'myPrivatePod' => ['myPrivatePod/Assets/CTItemImageCell.xib',
+  # 	                   'myPrivatePod/Assets/CTItemNormalCell.xib',
+  # 					   'myPrivatePod/Assets/CTItemTextCell.xib',
+  # 					   'myPrivatePod/Assets/CTItemImage.xib',
+  # 					   'myPrivatePod/Assets/CTItemText.xib',
+  # 					   'myPrivatePod/Assets/CTItemNormal.xib',
+  # 					   'myPrivatePod/Assets/CTItemListComponent.xib']
+  #  }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
