@@ -1,6 +1,6 @@
 {
   "name": "myPrivatePod",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "summary": "Test private pods.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/JumpingDaiDai/myPrivatePod.git",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/JumpingDaiDai/myPrivatePod.git",
-    "tag": "0.1.1"
+    "tag": "0.1.2"
   },
   "platforms": {
     "ios": "9.0"

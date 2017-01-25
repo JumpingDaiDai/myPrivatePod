@@ -1,5 +1,5 @@
 PODS:
-  - myPrivatePod (0.1.1)
+  - myPrivatePod (0.1.2)
 
 DEPENDENCIES:
   - myPrivatePod (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  myPrivatePod: e450425bdb4d30bfeafff447f6e47940238f61c7
+  myPrivatePod: 129888387268ca3936945475ee697ba14ab50f44
 
 PODFILE CHECKSUM: 1eb2a67f334c93a0b1aa0c97b99a2d1af8807145
 
