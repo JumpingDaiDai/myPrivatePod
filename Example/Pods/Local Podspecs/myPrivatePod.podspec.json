@@ -19,13 +19,15 @@
     "ios": "9.0"
   },
   "source_files": "myPrivatePod/Classes/**/*.{h,m}",
-  "resources": [
-    "myPrivatePod/Assets/CTItemImageCell.xib",
-    "myPrivatePod/Assets/CTItemNormalCell.xib",
-    "myPrivatePod/Assets/CTItemTextCell.xib",
-    "myPrivatePod/Assets/CTItemImage.xib",
-    "myPrivatePod/Assets/CTItemText.xib",
-    "myPrivatePod/Assets/CTItemNormal.xib",
-    "myPrivatePod/Assets/CTItemListComponent.xib"
-  ]
+  "resource_bundles": {
+    "Xib_resource": [
+      "myPrivatePod/Assets/CTItemImageCell.xib",
+      "myPrivatePod/Assets/CTItemNormalCell.xib",
+      "myPrivatePod/Assets/CTItemTextCell.xib",
+      "myPrivatePod/Assets/CTItemImage.xib",
+      "myPrivatePod/Assets/CTItemText.xib",
+      "myPrivatePod/Assets/CTItemNormal.xib",
+      "myPrivatePod/Assets/CTItemListComponent.xib"
+    ]
+  }
 }
