@@ -102,7 +102,7 @@
 - (void)viewInit {
     
     // 取得xibView 使用Name來取得
-    NSString *bundlePath = [[NSBundle mainBundle] pathForResource:@"Xib_resource" ofType:@"bundle"];
+    NSString *bundlePath = [[NSBundle bundleForClass:[self class]] pathForResource:@"Xib_resource" ofType:@"bundle"];
     NSBundle *bundle = [NSBundle bundleWithPath:bundlePath];
     CTItemListComponent *itemView = [[bundle loadNibNamed:@"CTItemListComponent"
                                                                                                    owner:self

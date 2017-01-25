@@ -47,7 +47,7 @@
 //================================================================================
 - (void)viewInitWithItemModel:(CTItemModel *)itemModel {
     
-    NSString *bundlePath = [[NSBundle mainBundle] pathForResource:@"Xib_resource" ofType:@"bundle"];
+    NSString *bundlePath = [[NSBundle bundleForClass:[self class]] pathForResource:@"Xib_resource" ofType:@"bundle"];
     NSBundle *bundle = [NSBundle bundleWithPath:bundlePath];
     CTItem *itemView;
     switch (itemModel.styleType) {

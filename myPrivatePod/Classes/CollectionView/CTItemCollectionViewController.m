@@ -89,7 +89,7 @@ static NSString * const reuseIdentifierImageOnlyCell = @"ImageOnlyCell";
     self.collectionView.backgroundColor = [UIColor whiteColor];
     
     // Register cell classes
-    NSString *bundlePath = [[NSBundle mainBundle] pathForResource:@"Xib_resource" ofType:@"bundle"];
+    NSString *bundlePath = [[NSBundle bundleForClass:[self class]] pathForResource:@"Xib_resource" ofType:@"bundle"];
     NSBundle *bundle = [NSBundle bundleWithPath:bundlePath];
     [self.collectionView registerNib:[UINib nibWithNibName:@"CTItemNormalCell" bundle:bundle] forCellWithReuseIdentifier:reuseIdentifierNormalCell];
     [self.collectionView registerNib:[UINib nibWithNibName:@"CTItemImageCell" bundle:bundle] forCellWithReuseIdentifier:reuseIdentifierImageOnlyCell];
