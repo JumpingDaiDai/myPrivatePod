@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'myPrivatePod'
-  s.version          = '0.1.2'
+  s.version          = '0.1.3'
   s.summary          = 'Test private pods.'
 
 # This description is used to generate tags and improve search results.
@@ -41,13 +41,7 @@ TODO: Add long description of the pod here.
   # 				 'myPrivatePod/Assets/CTItemListComponent.xib']
    
    s.resource_bundles = {
-  	'Xib_resources' => ['myPrivatePod/Assets/CTItemImageCell.xib',
-   	                    'myPrivatePod/Assets/CTItemNormalCell.xib',
-  					    'myPrivatePod/Assets/CTItemTextCell.xib',
-   					    'myPrivatePod/Assets/CTItemImage.xib',
-   					    'myPrivatePod/Assets/CTItemText.xib',
-   					    'myPrivatePod/Assets/CTItemNormal.xib',
-   					    'myPrivatePod/Assets/CTItemListComponent.xib']
+  	'Xib_resources' => ['myPrivatePod/Classes/**/*.xib']
     }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
