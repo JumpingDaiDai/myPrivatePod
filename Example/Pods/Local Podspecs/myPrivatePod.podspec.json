@@ -1,6 +1,6 @@
 {
   "name": "myPrivatePod",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "summary": "Test private pods.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/JumpingDaiDai/myPrivatePod.git",
@@ -13,19 +13,21 @@
   },
   "source": {
     "git": "https://github.com/JumpingDaiDai/myPrivatePod.git",
-    "tag": "0.1.0"
+    "tag": "0.1.1"
   },
   "platforms": {
     "ios": "9.0"
   },
   "source_files": "myPrivatePod/Classes/**/*.{h,m}",
-  "resources": [
-    "Resources/CTItemImageCell.xib",
-    "Resources/CTItemNormalCell.xib",
-    "Resources/CTItemTextCell.xib",
-    "Resources/CTItemImage.xib",
-    "Resources/CTItemText.xib",
-    "Resources/CTItemNormal.xib",
-    "Resources/CTItemListComponent.xib"
-  ]
+  "resource_bundles": {
+    "Xib_resources": [
+      "myPrivatePod/Assets/CTItemImageCell.xib",
+      "myPrivatePod/Assets/CTItemNormalCell.xib",
+      "myPrivatePod/Assets/CTItemTextCell.xib",
+      "myPrivatePod/Assets/CTItemImage.xib",
+      "myPrivatePod/Assets/CTItemText.xib",
+      "myPrivatePod/Assets/CTItemNormal.xib",
+      "myPrivatePod/Assets/CTItemListComponent.xib"
+    ]
+  }
 }
