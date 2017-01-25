@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16C68" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CTItemListComponent">
+            <connections>
+                <outlet property="bottomStackBackgroundView" destination="wPN-gr-izb" id="3sc-as-91W"/>
+                <outlet property="bottomStackView" destination="L29-RK-xd0" id="8wT-82-Ldy"/>
+                <outlet property="bottomStackWidth" destination="7Ax-DR-4T1" id="CXA-2J-nV2"/>
+                <outlet property="topStackBackgroundView" destination="VhM-tf-EPi" id="L0Y-jP-epS"/>
+                <outlet property="topStackHeight" destination="dtS-pG-Vfy" id="dva-0V-o2b"/>
+                <outlet property="topStackView" destination="T98-Yp-3PX" id="AT3-Vt-bZm"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="613" height="215"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VhM-tf-EPi">
+                    <rect key="frame" x="-1" y="0.0" width="613" height="107.5"/>
+                </view>
+                <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="T98-Yp-3PX">
+                    <rect key="frame" x="-0.5" y="0.0" width="613" height="107.5"/>
+                    <color key="backgroundColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                </stackView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wPN-gr-izb">
+                    <rect key="frame" x="-1" y="107" width="613" height="107.5"/>
+                </view>
+                <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="L29-RK-xd0">
+                    <rect key="frame" x="-0.5" y="107.5" width="613" height="107.5"/>
+                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                </stackView>
+            </subviews>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="L29-RK-xd0" secondAttribute="bottom" id="1ft-Cc-ku2"/>
+                <constraint firstItem="VhM-tf-EPi" firstAttribute="top" secondItem="T98-Yp-3PX" secondAttribute="top" id="389-zs-giL"/>
+                <constraint firstItem="L29-RK-xd0" firstAttribute="height" secondItem="T98-Yp-3PX" secondAttribute="height" id="3y6-Ll-8f2"/>
+                <constraint firstItem="L29-RK-xd0" firstAttribute="width" secondItem="T98-Yp-3PX" secondAttribute="width" id="7Ax-DR-4T1"/>
+                <constraint firstItem="wPN-gr-izb" firstAttribute="width" secondItem="L29-RK-xd0" secondAttribute="width" id="8OM-uj-HO2"/>
+                <constraint firstItem="wPN-gr-izb" firstAttribute="centerY" secondItem="L29-RK-xd0" secondAttribute="centerY" id="MbU-0W-8Yb"/>
+                <constraint firstItem="wPN-gr-izb" firstAttribute="height" secondItem="L29-RK-xd0" secondAttribute="height" id="SoO-IT-pOW"/>
+                <constraint firstItem="VhM-tf-EPi" firstAttribute="centerX" secondItem="T98-Yp-3PX" secondAttribute="centerX" id="Vua-AC-BqB"/>
+                <constraint firstItem="VhM-tf-EPi" firstAttribute="width" secondItem="T98-Yp-3PX" secondAttribute="width" id="Xai-Rp-Ck5"/>
+                <constraint firstItem="T98-Yp-3PX" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="arm-RR-MzK"/>
+                <constraint firstItem="T98-Yp-3PX" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="bcy-B1-cZM"/>
+                <constraint firstItem="L29-RK-xd0" firstAttribute="centerX" secondItem="T98-Yp-3PX" secondAttribute="centerX" id="dY0-S1-q1y"/>
+                <constraint firstItem="T98-Yp-3PX" firstAttribute="height" secondItem="iN0-l3-epB" secondAttribute="height" multiplier="0.5" id="dtS-pG-Vfy"/>
+                <constraint firstItem="T98-Yp-3PX" firstAttribute="width" secondItem="iN0-l3-epB" secondAttribute="width" id="eW3-wg-6cH"/>
+                <constraint firstItem="VhM-tf-EPi" firstAttribute="height" secondItem="T98-Yp-3PX" secondAttribute="height" id="lE1-Om-wcO"/>
+                <constraint firstItem="wPN-gr-izb" firstAttribute="centerX" secondItem="L29-RK-xd0" secondAttribute="centerX" id="sfk-1B-bY8"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="148" y="-72"/>
+        </view>
+    </objects>
+</document>

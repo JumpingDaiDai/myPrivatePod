@@ -32,13 +32,13 @@ TODO: Add long description of the pod here.
 
   s.source_files = 'myPrivatePod/Classes/**/*.{h,m}'
   
-  s.resources = ['myPrivatePod/Assets/CTItemImageCell.xib',
-                 'myPrivatePod/Assets/CTItemNormalCell.xib',
-  				 'myPrivatePod/Assets/CTItemTextCell.xib',
-   				 'myPrivatePod/Assets/CTItemImage.xib',
-   				 'myPrivatePod/Assets/CTItemText.xib',
-   				 'myPrivatePod/Assets/CTItemNormal.xib',
-   				 'myPrivatePod/Assets/CTItemListComponent.xib']
+  s.resources = ['Resources/CTItemImageCell.xib',
+                 'Resources/CTItemNormalCell.xib',
+  				 'Resources/CTItemTextCell.xib',
+   				 'Resources/CTItemImage.xib',
+   				 'Resources/CTItemText.xib',
+   				 'Resources/CTItemNormal.xib',
+   				 'Resources/CTItemListComponent.xib']
    
   # s.resource_bundles = {
   # 	'myPrivatePod' => ['myPrivatePod/Assets/CTItemImageCell.xib',
